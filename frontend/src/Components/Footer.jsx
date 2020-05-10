@@ -16,6 +16,7 @@ function Footer() {
           color: "#9c9fa1",
           bottom: "0px",
           backgroundColor: "#3a3e40",
+          textAlign: "center",
         }}
       >
         <Container style={{ paddingTop: "1%" }}>
