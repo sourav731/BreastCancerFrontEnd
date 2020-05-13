@@ -74,13 +74,15 @@ function Symptoms() {
             unique “big picture,” you can make better decisions. You and your
             doctors can formulate a treatment plan tailored just for you.
           </p>
-          <a
-            href="https://www.breastcancer.org/symptoms"
-            target="_blank"
-            style={{ color: "#e09d9d", fontSize: "20px" }}
-          >
-            Know more on breastcancer.org
-          </a>
+          <div style={{ textAlign: "center" }}>
+            <a
+              href="https://www.breastcancer.org/symptoms"
+              target="_blank"
+              style={{ color: "#e09d9d", fontSize: "20px" }}
+            >
+              Know more on breastcancer.org
+            </a>
+          </div>
         </div>
       </Zoom>
 

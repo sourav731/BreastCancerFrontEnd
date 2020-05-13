@@ -3,7 +3,7 @@ import NavBar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import Zoom from "react-reveal/Zoom";
 
-var listHeadColor = "#e38d9b";
+var listHeadColor = "#ced95d";
 
 function Treatment() {
   return (
@@ -187,7 +187,7 @@ function Treatment() {
         </div>
       </div>
       <Zoom>
-        <div style={{ margin: "5% ", color: "#757575" }}>
+        <div style={{ margin: "5% ", color: "#757575", textAlign: "center" }}>
           <a
             href="https://www.breastcancer.org/treatment"
             target="_blank"
