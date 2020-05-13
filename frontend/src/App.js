@@ -6,7 +6,7 @@ import Treatment from "./Pages/Treatment";
 function App() {
   return (
     <div className="App">
-      <Treatment />
+      <Symptoms />
     </div>
   );
 }

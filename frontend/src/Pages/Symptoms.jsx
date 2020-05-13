@@ -76,6 +76,7 @@ function Symptoms() {
           </p>
           <a
             href="https://www.breastcancer.org/symptoms"
+            target="_blank"
             style={{ color: "#e09d9d", fontSize: "20px" }}
           >
             Know more on breastcancer.org
