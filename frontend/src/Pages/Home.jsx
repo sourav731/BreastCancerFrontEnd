@@ -327,6 +327,9 @@ function Home() {
           </Row>
           <Row style={{ paddingLeft: "47%" }}>
             <Button
+              href="https://www.breastcancer.org"
+              rel="/notfound"
+              target="_blank"
               style={{ backgroundColor: "#7eb8f2", borderColor: "#7eb8f2" }}
             >
               Know More

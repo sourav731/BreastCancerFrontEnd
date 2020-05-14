@@ -6,21 +6,31 @@ import Button from "react-bootstrap/Button";
 
 var labelColor = "#cc818f";
 var infoColor = "#c95d60";
+var decimal_re = /^(\d*\.)?\d+$/;
 
 function Predict() {
   return (
     <React.Fragment>
       <NavBar />
       <div style={{ marginTop: "4%" }}>
-        {" "}
-        <h3 style={{ textAlign: "center", color: "#2f7b9e" }}>
+        <h3
+          style={{
+            textAlign: "center",
+            color: "#2f7b9e",
+            border: "1px solid #babab5",
+            borderBottom: "3px solid #babab5",
+            margin: "0% 6% 0% 6%",
+            borderRadius: "4px",
+            padding: "1% 0% 1% 0%",
+          }}
+        >
           Prediction Form
         </h3>
       </div>
       <div
         className="predictDiv"
         style={{
-          margin: "6%",
+          margin: "2% 6% 2% 6%",
           padding: "3% 3% 3% 3%",
           border: "1px solid #babab5",
           borderRadius: "4px",

@@ -77,6 +77,7 @@ function Symptoms() {
           <div style={{ textAlign: "center" }}>
             <a
               href="https://www.breastcancer.org/symptoms"
+              rel="/notfound"
               target="_blank"
               style={{ color: "#e09d9d", fontSize: "20px" }}
             >
