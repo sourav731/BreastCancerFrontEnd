@@ -191,7 +191,7 @@ function Treatment() {
           <a
             href="https://www.breastcancer.org/treatment"
             target="_blank"
-            rel="/notfound"
+            rel="noopener noreferrer"
             style={{ color: "#e09d9d", fontSize: "20px" }}
           >
             Know more on breastcancer.org
