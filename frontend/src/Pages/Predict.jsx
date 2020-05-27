@@ -31,7 +31,7 @@ const schema = Yup.object({
 });
 
 function Predict() {
-  const [result, changeResult] = useState({});
+  const [result, changeResult] = useState("");
 
   const { handleSubmit, handleChange } = useFormik({
     initialValues: {
@@ -90,10 +90,8 @@ function Predict() {
           "application/json;charset=utf-8";
 
         axios.post("http://127.0.0.1:5000/predict", [data]).then((res) => {
-          console.log(res.data);
-          changeResult(res.data);
-          console.log(result);
-          // window.location = "/predictionResult";
+          console.log(res.data.prediction);
+          changeResult(res.data.prediction);
         });
       } else {
         console.log("error");
@@ -384,6 +382,21 @@ function Predict() {
             </Button>
           </div>
         </Form>
+      </div>
+
+      <div
+        style={{
+          margin: "5%",
+          textAlign: "center",
+          fontSize: "50px",
+        }}
+      >
+        <p style={{ backgroundColor: "#d4a08e", borderRadius: "4px" }}>
+          {result === "1" ? "You might go for a test for breast cancer." : ""}
+        </p>
+        <p style={{ backgroundColor: "#8ed4a0", borderRadius: "4px" }}>
+          {result === "0" ? "Do not worry.You seem fine." : ""}
+        </p>
       </div>
       <Footer />
     </React.Fragment>
